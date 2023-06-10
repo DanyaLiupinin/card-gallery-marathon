@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
 body {
     margin: 0;
     height: 100vh;
+    overflow: hidden;
+}
+
+h3 {
+    font-family: 'Orbitron'
 }
 
 body::before {
@@ -12,7 +19,8 @@ body::before {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url('./images/main.jpg');
+    background: url('./images/main.jpg') no-repeat;
+    background-size: cover;
     opacity: 1;
     filter: contrast(1.3);
 }
@@ -29,7 +37,7 @@ body::before {
 }
 
 .slide {
-    height: 90vh;
+    height: 65vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,6 +67,5 @@ body::before {
     left: 20px;
     margin: 0;
     opacity: 0;
-    color: rgb(249, 238, 252);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
 }
