@@ -17,10 +17,6 @@ Clone repository:
 
 ``` git clone https://github.com/DanyaLiupinin/card-gallery-marathon.git ```
 
-Instal dependencies: 
-
-``` npm install ```
-
 Start project: 
 
 ``` npm run start ```
